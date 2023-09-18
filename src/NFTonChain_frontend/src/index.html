@@ -13,12 +13,22 @@
       <img src="logo2.svg" alt="DFINITY logo" />
       <br />
       <br />
-      <form action="#">
-        <label for="name">Enter your name: &nbsp;</label>
-        <input id="name" alt="Name" type="text" />
-        <button type="submit">Click Me!</button>
+      <form class="balance" action="#">
+        <label for="identity">Enter your identity: &nbsp;</label>
+        <input id="identity" alt="Identity" type="text" />
+        <button type="submit">Get My Balance</button>
       </form>
-      <section id="greeting"></section>
+      <section id="balance"></section>
+      <form class="limit" action="#">
+        <button type="submit">Get Collection Max Limit</button>
+      </form>
+      <section id="limit"></section>
+      <form class="token" action="#">
+        <label for="tokenID">Enter the token ID: &nbsp;</label>
+        <input id="tokenID" alt="TokenID" type="text" />
+        <button type="submit">Get Owner</button>
+      </form>
+      <section id="owner"></section>
     </main>
   </body>
 </html>
